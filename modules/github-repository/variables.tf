@@ -46,3 +46,8 @@ variable "license_template" {
   description = "description"
 }
 
+variable "token" {
+  type        = string
+  default     = "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"
+  description = "description"
+}
