@@ -11,13 +11,12 @@
 # }
 
 resource "github_repository" "github-action-terraform" {
-  name          = var.name
-  description   = var.description
-  private       = var.private
-  homepage_url  = var.homepage_url
-  has_projects  = var.has_projects
-  has_wiki      = var.has_wiki
-  has_downloads = var.has_downloads
+  name             = var.name
+  description      = var.description
+  homepage_url     = var.homepage_url
+  has_projects     = var.has_projects
+  has_wiki         = var.has_wiki
+  has_downloads    = var.has_downloads
   license_template = var.license_template
-  topics = ["example", "public", "ci", "continuous-integration", "terraform", "github", "github-actions"]
+  topics           = ["example", "public", "ci", "continuous-integration", "terraform", "github", "github-actions"]
 }
