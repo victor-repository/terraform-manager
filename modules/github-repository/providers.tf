@@ -9,7 +9,7 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-  token = "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" #var.token # or `GITHUB_TOKEN`
+  # token = "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" #var.token # or `GITHUB_TOKEN`
 }
 
 # Add a user to the organization
